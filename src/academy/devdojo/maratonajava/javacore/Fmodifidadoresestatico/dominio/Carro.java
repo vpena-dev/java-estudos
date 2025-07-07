@@ -17,6 +17,14 @@ public class Carro {
         System.out.println("-------------");
     }
 
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite() {
+        return velocidadeLimite;
+    }
+
     public String getNome() {
         return nome;
     }
